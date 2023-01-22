@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  height: 100vh;
+  font-size: 16px;
+  background-color: rgb(247, 247, 247);
+  font-family: "Noto Sans JP", sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+#SiteLogo {
+  display: block;
+  margin: 20px 21vw 20px auto;
+}
+
+#SiteAudioGuide {
+  display: block;
+  margin: 0px 20px auto 0px;
+}
+
+.headList_Logo {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+
+.headMenu{
+  margin: 50px 0 50px 0;
+}
+
+.headMenu > ul {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+
+.headMenu > ul > a > li {
+  display: block;
+  list-style: none;
+  font-family: serif;
+  font-size: 32px;
+  padding: 0 25px;
+  font-weight: 500;
+}
+
+.ListRightBorder {
+  border-right: 1px solid #000;
+}
+
+#button_jumpTop{
+  position: absolute;
+  display: fixed;
+  margin: 80vh 5vw 50px 90vw;
+  z-index: 100;
+}

@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  height: 100vh;
+  font-size: 16px;
+  background-color: rgb(247, 247, 247);
+  font-family: "Noto Sans JP", sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+#BackImg_home {
+  display: block;
+  width: 100%;
+}
+
+#Intr {
+  top: -600px;
+  color: #fff;
+  font-size: 40px;
+  position: relative;
+  font-weight: bold;
+  margin: 0 0 -100px 150px;
+}
+
+#button_searchOnsen {
+  position: relative;
+  display: block;
+  text-align: right;
+  top: -200px;
+  margin: 0 0 -120px 0;
+}
+
+.homeContent{
+  text-align: center;
+  margin: 160px 0px;
+}
+
+.homeContent>h1{
+  color: #5A5A5A;
+  font-size: 40px;
+}
+
+.homeContent>p{
+  color: #5A5A5A;
+  font-size:32px;
+}
+
+#title_aboutSite {
+  display: block;
+  margin: 100px auto 50px auto;
+}
+
+#Button_viewMore{
+  margin: 50px 0;
+}
+
+.news{
+  display: block;
+}
+
+.news_articles_article{
+  display:flex;
+  justify-content: left;
+  width: 750px;
+  margin: 25px auto;
+}
+
+.news_articles_article_date{
+  font-size: 25px;
+  padding: 0 80px 0 0;
+}
+
+.news_articles_article_title{
+  font-size:25px;
+}
