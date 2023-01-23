@@ -23,7 +23,7 @@
             </a>
         </ul>
     </div>
-    <p id="copyRight">Copyright © xxxxxxxxxxxx.com. All Rights Reserved.</p>
+    <p id="copyRight">Copyright © SpaSapo.com. All Rights Reserved.</p>
 </footer>
 </body>
 

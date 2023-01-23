@@ -44,6 +44,7 @@ a {
 .homeContent{
   text-align: center;
   margin: 160px 0px;
+  border-radius: 100px;
 }
 
 .homeContent>h1{
@@ -58,7 +59,7 @@ a {
 
 #title_aboutSite {
   display: block;
-  margin: 100px auto 50px auto;
+  margin: 10px auto 50px auto;
 }
 
 #Button_viewMore{
@@ -76,6 +77,7 @@ a {
   margin: 25px auto;
 }
 
+
 .news_articles_article_date{
   font-size: 25px;
   padding: 0 80px 0 0;
@@ -83,4 +85,139 @@ a {
 
 .news_articles_article_title{
   font-size:25px;
+  transition:all 0.5s;
+}
+
+.news_articles_article_title:hover{
+  font-size:25px;
+  background: #353535;
+  color: #fff;
+  transition:all 0.5s;
+}
+
+/*スマホレスポンシブ*/
+@media screen and (max-width: 500px) {
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  height: 100vh;
+  font-size: 16px;
+  background-color: rgb(247, 247, 247);
+  font-family: "Noto Sans JP", sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+#BackImg_home {
+  display: block;
+  width: 100%;
+}
+
+#Intr {
+  display: block;
+  width: 90vw;
+  top: 0;
+  color: rgb(59, 59, 59);
+  font-size: 18px;
+  position: relative;
+  font-weight: bold;
+  margin: 50px auto 0 auto;
+  text-align: center;
+}
+
+#button_searchOnsen {
+  position: relative;
+  display: block;
+  text-align: right;
+  top: 0px;
+  margin: 0 0 0px 0;
+}
+
+#button_searchOnsen {
+  display: none;
+  top: 0;
+  width: 300px;
+  margin: 0 auto;
+  text-align: right;
+}
+
+#button_searchOnsen>img {
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+  top: 0;
+}
+
+.homeContent{
+  width:85vw;
+  text-align: left;
+  margin: 100px auto;
+  border-radius: 100px;
+}
+
+.homeContent>h1{
+  color: #5A5A5A;
+  font-size: 20px;
+}
+
+.homeContent>p{
+  color: #5A5A5A;
+  font-size:18px;
+}
+
+#title_aboutSite {
+  display: block;
+  width: 80%;
+  margin: 10px auto 50px auto;
+}
+
+#title_aboutNews {
+  display: block;
+  width: 80%;
+  margin: 10px auto 50px auto;
+}
+
+#Button_viewMore{
+  width: 85vw;
+  margin: 50px 0;
+}
+
+.news{
+  display: block;
+}
+
+.news_articles_article{
+  display:flex;
+  justify-content: left;
+  width: 90vw;
+  margin: 8px auto;
+}
+
+
+.news_articles_article_date{
+  font-size: 16px;
+  padding: 0 20px 0 0;
+}
+
+.news_articles_article_title{
+  font-size:16px;
+  text-align: left;
+  transition:all 0.5s;
+}
+
+.news_articles_article_title:hover{
+  font-size:16px;
+  background: #353535;
+  color: #fff;
+  transition:all 0.5s;
+}
 }

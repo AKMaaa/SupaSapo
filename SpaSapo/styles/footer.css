@@ -1,40 +1,128 @@
-footer{
-    background-color: #8DAEB9;
+footer {
+  background-color: #8daeb9;
 }
 
-#SiteLogo_footer{
+#SiteLogo_footer {
+  display: block;
+  padding: 40px 0;
+  margin: 50px auto 5px auto;
+}
+
+.footerLinkList > ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  width: 55%;
+  margin: 0 auto;
+}
+
+.footerLinkList > ul > a > li {
+  display: block;
+  list-style: none;
+  color: #fff;
+  font-size: 25px;
+  padding: 10px 50px 10px 0;
+}
+
+.footerLinkList {
+  width: 70%;
+  margin: 0 auto;
+}
+
+#copyRight {
+  display: block;
+  padding: 10px 0 50px 0;
+  margin: 50px auto 0 auto;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  border-top: 1px solid #fff;
+}
+
+.pagenation {
+  display: block;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.page-numbers {
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: 1px solid #5a5a5a;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+
+.page-numbers:hover {
+  color: #fff;
+  background: #5a5a5a;
+  transition: all 0.5s;
+}
+
+/*スマホレスポンシブ*/
+@media screen and (max-width: 500px) {
+  footer {
+    background-color: #8daeb9;
+  }
+
+  #SiteLogo_footer {
     display: block;
     padding: 40px 0;
     margin: 50px auto 5px auto;
-}
+  }
 
-.footerLinkList>ul{
-    display: flex;
+  .footerLinkList > ul {
+    display: block;
     flex-wrap: wrap;
     justify-content: left;
-    width: 55%;
+    width: 100%;
     margin: 0 auto;
-}
+  }
 
-.footerLinkList>ul>a>li{
+  .footerLinkList > ul > a > li {
     display: block;
     list-style: none;
     color: #fff;
-    font-size:25px;
-    padding:10px 50px 10px 0;
-}
+    font-size: 25px;
+    padding: 0px auto 10px auto;
+  }
 
-.footerLinkList{
-    width: 70%;
+  .footerLinkList {
+    width: 90%;
     margin: 0 auto;
-}
+  }
 
-#copyRight{
+  #copyRight {
     display: block;
     padding: 10px 0 50px 0;
     margin: 50px auto 0 auto;
-    font-size:18px;
+    font-size: 18px;
     color: #fff;
     text-align: center;
     border-top: 1px solid #fff;
+  }
+
+  .pagenation {
+    display: block;
+    width: 90vw;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .page-numbers {
+    font-size: 14px;
+    padding: 8px 18px;
+    margin: 0 8px;
+    border: 1px solid #5a5a5a;
+    border-radius: 10px;
+    transition: all 0.5s;
+  }
+
+  .page-numbers:hover {
+    color: #fff;
+    background: #5a5a5a;
+    transition: all 0.5s;
+  }
 }

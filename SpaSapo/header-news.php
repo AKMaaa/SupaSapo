@@ -4,10 +4,10 @@
 <head>
     <meta charset="utf-8">
     <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/images/SpaSapo_favicon.png">
-    <title>SpaSapo - home</title>
+    <title>SpaSapo - お知らせ</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php wp_head(); ?>
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/styles/home.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/styles/news.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/styles/head.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/styles/footer.css">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>

@@ -4,7 +4,13 @@ html {
   overflow-x: hidden;
 }
 
+a {
+  text-decoration: none;
+  color: #000;
+}
+
 body {
+  scroll-behavior: smooth;
   height: 100vh;
   font-size: 16px;
   background-color: rgb(247, 247, 247);
@@ -31,7 +37,7 @@ body {
   justify-content: space-around;
 }
 
-.headMenu{
+.headMenu {
   margin: 50px 0 50px 0;
 }
 
@@ -39,8 +45,8 @@ body {
   display: flex;
   justify-content: center;
   margin: 0 auto;
+  padding: 0;
 }
-
 
 .headMenu > ul > a > li {
   display: block;
@@ -49,15 +55,136 @@ body {
   font-size: 32px;
   padding: 0 25px;
   font-weight: 500;
+  transition: all 0.5s;
+}
+
+.headMenu > ul > a > li:hover {
+  display: block;
+  list-style: none;
+  font-family: serif;
+  font-size: 32px;
+  padding: 0 25px;
+  font-weight: 500;
+  background: rgb(75, 75, 75);
+  color: #fff;
+  transition: all 0.5s;
 }
 
 .ListRightBorder {
   border-right: 1px solid #000;
 }
 
-#button_jumpTop{
+#button_jumpTop {
   position: absolute;
   display: fixed;
   margin: 80vh 5vw 50px 90vw;
   z-index: 100;
 }
+
+.audioContent {
+  display: block;
+  width: 500px;
+  margin: 50px auto;
+}
+
+.audioContent > p {
+  font-size: 15px;
+  color: rgb(63, 63, 63);
+  text-align: center;
+}
+
+/*スマホレスポンシブ*/
+@media screen and (max-width: 500px) {
+
+  html {
+    overflow-x: hidden;
+  }
+
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  body {
+    scroll-behavior: smooth;
+    height: 100vh;
+    font-size: 16px;
+    background-color: rgb(247, 247, 247);
+    font-family: "Noto Sans JP", sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  #SiteLogo {
+    display: block;
+    margin: 20px auto;
+  }
+
+  #SiteAudioGuide {
+    display: block;
+    margin: 5px auto;
+  }
+
+  .headList_Logo {
+    display: -webkit-flex;
+    display: block;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+  }
+
+  .headMenu {
+    margin: 50px 0 50px 0;
+  }
+
+  .headMenu > ul {
+    display: block;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .headMenu > ul > a > li {
+    display: block;
+    list-style: none;
+    font-family: serif;
+    font-size: 32px;
+    padding: 0 25px;
+    font-weight: 500;
+    transition: all 0.5s;
+  }
+
+  .headMenu > ul > a > li:hover {
+    display: block;
+    list-style: none;
+    font-family: serif;
+    font-size: 32px;
+    padding: 0 25px;
+    font-weight: 500;
+    background: rgb(75, 75, 75);
+    color: #fff;
+    transition: all 0.5s;
+  }
+
+  .ListRightBorder {
+    border-right: 1px solid #000;
+  }
+
+  #button_jumpTop {
+    display: none;
+  }
+
+  .audioContent {
+    display: block;
+    width: 500px;
+    margin: 50px auto;
+  }
+
+  .audioContent > p {
+    font-size: 15px;
+    color: rgb(63, 63, 63);
+    text-align: left;
+    margin: 5px 0 0 28px;
+  }
+}
+
