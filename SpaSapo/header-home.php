@@ -26,16 +26,24 @@
         <div class="headMenu">
             <ul>
                 <a href="<?php echo esc_url(home_url('home')); ?>">
-                    <li class="ListRightBorder">当サイトについて</li>
+                    <li class="ListRightBorder">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/WebSite.svg" alt="ウェブサイトのアイコン">当サイトについて
+                    </li>
                 </a>
                 <a href="<?php echo esc_url(home_url('onsen_infomation')); ?>">
-                    <li class="ListRightBorder">温泉情報</li>
+                    <li class="ListRightBorder">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/Onsen.svg" alt="温泉のアイコン">温泉情報
+                    </li>
                 </a>
                 <a href="<?php echo esc_url(home_url('news')); ?>">
-                    <li class="ListRightBorder">お知らせ</li>
+                    <li class="ListRightBorder">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/News.svg" alt="ニュースのアイコン">お知らせ
+                    </li>
                 </a>
                 <a href="<?php echo esc_url(home_url('contact')); ?>">
-                    <li class="ListRightBorder">お問い合わせ</li>
+                    <li class="ListRightBorder">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/Contact.svg" alt="お問い合わせのアイコン">お問い合わせ
+                    </li>
                 </a>
             </ul>
         </div>

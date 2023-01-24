@@ -4,12 +4,12 @@
 <head>
     <meta charset="utf-8">
     <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/images/SpaSapo_favicon.png">
-    <title>SpaSapo - 温泉情報</title>
+    <title>SpaSapo - お知らせ</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php wp_head(); ?>
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/styles/infomation.css">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/styles/footer.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/styles/contact.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/styles/head.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/styles/footer.css">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 </head>
 
@@ -24,8 +24,8 @@
             <img src="<?php echo get_template_directory_uri(); ?>/images/Audio_Guide.png" alt="当サイトは音声案内機能がついております" id="SiteAudioGuide">
         </div>
         <div class="headMenu">
-        <ul>
-        <a href="<?php echo esc_url(home_url('home')); ?>">
+            <ul>
+            <a href="<?php echo esc_url(home_url('home')); ?>">
                     <li class="ListRightBorder">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/WebSite.svg" alt="ウェブサイトのアイコン">当サイトについて
                     </li>

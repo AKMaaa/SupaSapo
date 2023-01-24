@@ -269,8 +269,8 @@ figure {
   .tagContent_comp > div > p {
     display: block;
     width: fit-content;
-    font-size: 20px;
-    padding: 5px 15px;
+    font-size: 14px;
+    padding: 3px 12px;
     margin: 0;
   }
 

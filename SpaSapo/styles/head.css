@@ -48,6 +48,13 @@ body {
   padding: 0;
 }
 
+
+.ListRightBorder > img {
+  display: inline-block;
+  width: 30px;
+  margin: 5px 8px -3px 0px;
+}
+
 .headMenu > ul > a > li {
   display: block;
   list-style: none;
@@ -95,7 +102,6 @@ body {
 
 /*スマホレスポンシブ*/
 @media screen and (max-width: 500px) {
-
   html {
     overflow-x: hidden;
   }
@@ -176,7 +182,7 @@ body {
 
   .audioContent {
     display: block;
-    width: 500px;
+    width: 90vw;
     margin: 50px auto;
   }
 
@@ -187,4 +193,3 @@ body {
     margin: 5px 0 0 28px;
   }
 }
-

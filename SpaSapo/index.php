@@ -10,7 +10,7 @@
 <img src="<?php echo get_template_directory_uri(); ?>/images/Back_Onsen.png" alt="温泉の湯船の画像です。ページ下部に行くと温泉情報が一覧で表示されています。" id="BackImg_home">
 <p id="Intr">湯の川の温泉の情報を<br>カンタンに手に入れる</p>
 
-<a href="" id="button_searchOnsen">
+<a href="<?php echo esc_url(home_url('onsen_infomation')); ?>" id="button_searchOnsen">
     <img src="<?php echo get_template_directory_uri(); ?>/images/Button_searchOnsen.png" alt="このボタンを選択すると温泉の一覧情報が掲載されているページに遷移します。">
 </a>
 
@@ -41,14 +41,14 @@
         <p>温泉情報についての音声案内</p>
         <audio controls='' style="width: 100%;">
             <audio controls='' style="width: 100%;">
-                <source src="https://storage.googleapis.com/ondoku3/media/024f3c3bf46b324dfe45b1745cd1d27451fa876a9f6d0b6be6046e6a.mp3?" type="audio/mpeg">
+                <source src="https://storage.googleapis.com/ondoku3/media/afe924668e359106350b8adab20b4b832c863c40a8a4f07d0d4fcd6b.mp3?" type="audio/mpeg">
             </audio><br />
     </div>
     <img src="<?php echo get_template_directory_uri(); ?>/images/h1_AboutInfo.png" alt="以下に温泉情報がまとめられています" id="title_aboutSite">
     <h1>各温泉施設までの最寄駅からの道のりなどの詳細情報<br>
         は下部のボタンより調べることが可能です。</h1>
-        <a href="<?php echo esc_url(home_url('onsen_infomation')); ?>">
-    <img src="<?php echo get_template_directory_uri(); ?>/images/viewMore.png" alt="このボタンをクリックすると最寄駅から温泉までの道のりの情報や施設の情報を取得することが可能です。" id="Button_viewMore"></a>
+    <a href="<?php echo esc_url(home_url('onsen_infomation')); ?>">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/viewMore.png" alt="このボタンをクリックすると最寄駅から温泉までの道のりの情報や施設の情報を取得することが可能です。" id="Button_viewMore"></a>
 </div>
 
 <img src="<?php echo get_template_directory_uri(); ?>/images/BackImg_Sea.png" alt="温泉から見える湯の川の綺麗な海の眺めを捉えた写真" id="BackImg_home">

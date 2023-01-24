@@ -35,7 +35,7 @@
 
 #title_aboutSite {
   display: block;
-  margin: 0 auto 50px auto;
+  margin: 160px auto 50px auto;
 }
 
 a {
@@ -46,6 +46,12 @@ h2 {
   text-align: center;
   font-weight: bold;
   color: #5a5a5a;
+}
+
+.newsContent{
+  display: block;
+  width: 85vw;
+  margin: 0 auto;
 }
 
 /*スマホレスポンシブ*/
