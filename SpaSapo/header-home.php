@@ -7,9 +7,9 @@
     <title>SpaSapo - home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php wp_head(); ?>
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/styles/home.css">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/styles/head.css">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/styles/footer.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/styles/home.css?202301241133">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/styles/head.css?202301241133">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/styles/footer.css?202301241133">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 </head>
 

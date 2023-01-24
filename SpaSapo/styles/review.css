@@ -1,0 +1,69 @@
+.reviewContent {
+  display: block;
+  width: 90vw;
+  margin: 100px auto 50px auto;
+}
+
+.glsr {
+  margin: 50px 0;
+}
+
+.reviewTitle {
+  width: fit-content;
+  border-bottom: 5px solid rgb(235, 178, 209);
+  color: #4b4b4b;
+  margin: 80px auto;
+}
+
+.glsr-summary {
+  margin: 20px auto 80px auto;
+}
+
+.reviewH3 {
+  width: fit-content;
+  border-bottom: 5px solid rgb(234, 235, 178);
+  color: #4b4b4b;
+  margin: 15px auto;
+}
+
+.glsr-reviews {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.glsr-review {
+  display: block;
+  width: 350px;
+  padding: 10px 15px;
+  border-radius: 20px;
+  margin: 10px;
+  background-color: rgb(255, 255, 255);
+  -webkit-filter: drop-shadow(1px 3px 5px rgba(0, 0, 0, 0.2));
+  -moz-filter: drop-shadow(1px 3px 5px rgba(0, 0, 0, 0.2));
+  -ms-filter: drop-shadow(1px 3px 5px rgba(0, 0, 0, 0.2));
+  filter: drop-shadow(1px 3px 5px rgba(0, 0, 0, 0.2));
+}
+
+.glsr-tag-value {
+  text-align: left;
+}
+
+.glsr-label {
+  text-align: left;
+}
+
+/*スマホレスポンシブ*/
+@media screen and (max-width: 500px) {
+  .glsr-review {
+    display: block;
+    width: 80vw;
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    -webkit-filter: drop-shadow(1px 3px 5px rgba(0, 0, 0, 0.2));
+    -moz-filter: drop-shadow(1px 3px 5px rgba(0, 0, 0, 0.2));
+    -ms-filter: drop-shadow(1px 3px 5px rgba(0, 0, 0, 0.2));
+    filter: drop-shadow(1px 3px 5px rgba(0, 0, 0, 0.2));
+  }
+}

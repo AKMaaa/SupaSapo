@@ -8,6 +8,18 @@
         <?php the_title(); ?>
     </div>
     <?php the_content(); ?>
-
+    <?php
+    global $post;
+    $post_id = $post->ID;
+    ?>
+    <div class="reviewContent">
+        <h1 class="reviewTitle">レビューコーナー</h1>
+        <h3 class="reviewH3">レビューの平均</h3>
+        <?php echo do_shortcode('[site_reviews_summary assigned_posts="' . $post_id . '"]'); ?>
+        <h3 class="reviewH3">利用者の声</h3>
+        <?php echo do_shortcode('[site_reviews assigned_posts="' . $post_id . '"]'); ?>
+        <h3 class="reviewH3">入力フォーム</h3>
+        <?php echo do_shortcode('[site_reviews_form assigned_posts="' . $post_id . '"]'); ?>
+    </div>
 </div>
 <?php get_footer(); ?>
